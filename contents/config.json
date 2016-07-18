@@ -1,0 +1,21 @@
+{
+    "id"        :   "hrgruri",
+    "local"     :   "http://localhost:8000",
+    "title"     :   "blog\\hrgruri",
+    "author"    :   "Yuya Aratani",
+    "theme"     :   "saori",
+    "lang"      :   "ja",
+    "link"      :   {
+        "github"    :   "https://github.com/hrgruri",
+        "twitter"   :   "https://twitter.com/hrgruri",
+        "リポジトリ説明": "/repository"
+    },
+    "feed" : {
+        "type" : "atom",
+        "number": 30
+    },
+    "google-analytics" : "UA-71610603-3",
+    "share" : [
+        "twitter"
+    ]
+}

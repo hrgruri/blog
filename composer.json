@@ -1,0 +1,5 @@
+{
+    "require": {
+        "hrgruri/saori": "v1.0.x-dev"
+    }
+}
