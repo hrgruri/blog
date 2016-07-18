@@ -1,0 +1,2 @@
+# blog
+hrgruri.github.ioのためのリポジトリ
