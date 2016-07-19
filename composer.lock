@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "02850549f9a163dc3592902afd2b20d4",
-    "content-hash": "6d89d58384ad9c1da2738bc44c8d0ac3",
+    "hash": "ad64b0df807ba6bfdbc3fcabc6284906",
+    "content-hash": "6cd656bc1214dc1dab7f4bcece9a9bf9",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -69,16 +69,16 @@
         },
         {
             "name": "hrgruri/saori",
-            "version": "v1.0.x-dev",
+            "version": "v1.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hrgruri/saori.git",
-                "reference": "d07b886987aa1338f6659539066c03504211fba9"
+                "reference": "b8912e6a530f21e7caf2531777b273d85b4bbf75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hrgruri/saori/zipball/d07b886987aa1338f6659539066c03504211fba9",
-                "reference": "d07b886987aa1338f6659539066c03504211fba9",
+                "url": "https://api.github.com/repos/hrgruri/saori/zipball/b8912e6a530f21e7caf2531777b273d85b4bbf75",
+                "reference": "b8912e6a530f21e7caf2531777b273d85b4bbf75",
                 "shasum": ""
             },
             "require": {
@@ -98,7 +98,7 @@
                 "MIT"
             ],
             "description": "blog tool for user_name.github.io",
-            "time": "2016-07-15 04:45:16"
+            "time": "2016-07-19 03:52:01"
         },
         {
             "name": "mibe/feedwriter",
