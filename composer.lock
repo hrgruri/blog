@@ -73,12 +73,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hrgruri/saori.git",
-                "reference": "b8912e6a530f21e7caf2531777b273d85b4bbf75"
+                "reference": "cd072a5e175fbf45af6b80031d4293bd11ddb1bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hrgruri/saori/zipball/b8912e6a530f21e7caf2531777b273d85b4bbf75",
-                "reference": "b8912e6a530f21e7caf2531777b273d85b4bbf75",
+                "url": "https://api.github.com/repos/hrgruri/saori/zipball/cd072a5e175fbf45af6b80031d4293bd11ddb1bc",
+                "reference": "cd072a5e175fbf45af6b80031d4293bd11ddb1bc",
                 "shasum": ""
             },
             "require": {
@@ -98,7 +98,7 @@
                 "MIT"
             ],
             "description": "blog tool for user_name.github.io",
-            "time": "2016-07-19 03:52:01"
+            "time": "2016-07-19 04:44:30"
         },
         {
             "name": "mibe/feedwriter",
