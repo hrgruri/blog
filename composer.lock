@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ad64b0df807ba6bfdbc3fcabc6284906",
-    "content-hash": "6cd656bc1214dc1dab7f4bcece9a9bf9",
+    "hash": "31f41ff1adf614232c82c2b17f2c977c",
+    "content-hash": "fe526bcc6107bb5410a480119f27d91a",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -69,28 +69,29 @@
         },
         {
             "name": "hrgruri/saori",
-            "version": "v1.1.x-dev",
+            "version": "v2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hrgruri/saori.git",
-                "reference": "cd072a5e175fbf45af6b80031d4293bd11ddb1bc"
+                "reference": "2b4b047fedaf5a93a11359a3c0e4b6c3a5f94605"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hrgruri/saori/zipball/cd072a5e175fbf45af6b80031d4293bd11ddb1bc",
-                "reference": "cd072a5e175fbf45af6b80031d4293bd11ddb1bc",
+                "url": "https://api.github.com/repos/hrgruri/saori/zipball/2b4b047fedaf5a93a11359a3c0e4b6c3a5f94605",
+                "reference": "2b4b047fedaf5a93a11359a3c0e4b6c3a5f94605",
                 "shasum": ""
             },
             "require": {
                 "cebe/markdown": "^1.1",
                 "mibe/feedwriter": "^1.0",
                 "php": ">=7.0.0",
+                "symfony/console": "^3.1",
                 "twig/twig": "^1.24"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "hrgruri\\saori\\": "src"
+                    "Hrgruri\\Saori\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -98,7 +99,7 @@
                 "MIT"
             ],
             "description": "blog tool for user_name.github.io",
-            "time": "2016-07-19 04:44:30"
+            "time": "2016-08-16 09:07:28"
         },
         {
             "name": "mibe/feedwriter",
@@ -180,6 +181,125 @@
             "time": "2016-04-17 21:37:55"
         },
         {
+            "name": "symfony/console",
+            "version": "v3.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "f9e638e8149e9e41b570ff092f8007c477ef0ce5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/f9e638e8149e9e41b570ff092f8007c477ef0ce5",
+                "reference": "f9e638e8149e9e41b570ff092f8007c477ef0ce5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/event-dispatcher": "~2.8|~3.0",
+                "symfony/process": "~2.8|~3.0"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": "",
+                "symfony/process": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Console\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-07-26 08:04:17"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "dff51f72b0706335131b00a7f49606168c582594"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/dff51f72b0706335131b00a7f49606168c582594",
+                "reference": "dff51f72b0706335131b00a7f49606168c582594",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2016-05-18 14:26:46"
+        },
+        {
             "name": "twig/twig",
             "version": "v1.24.1",
             "source": {
@@ -249,6 +369,8 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=7.0.0"
+    },
     "platform-dev": []
 }

@@ -1,5 +1,9 @@
 {
+    "name": "hrgruri/saori-skeleton",
+    "description": "Saori Skeleton",
+    "license": "MIT",
     "require": {
-        "hrgruri/saori": "v1.1.x-dev"
+        "php": ">=7.0.0",
+        "hrgruri/saori": "v2.0.x-dev"
     }
 }
