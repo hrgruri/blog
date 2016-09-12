@@ -6,36 +6,32 @@
 ### インストール
 インストールはComposerからできます
 ```sh
-mkdir blog
-cd blog
-composer require hrgruri/saori
+composer create-project hrgruri/saori
 ```
 ### 初期化
-まずは動かすためのコードを記述します. main.phpにでも以下のコードを書いてください.
-```php
-<?php
-require ('vendor/autoload.php');
-$saori = new hrgruri\saori\Saori(__DIR__);
-$saori->run($argv);
-```
-次の初期化をしましょう. 初期化をすることで,必要最低限の設定ファイルが生成されます.
+インストールが終わったら初期化をしましょう. 初期化をすることで,必要最低限の設定ファイルが生成されます.
 ```sh
-php main.php init
+php saori init
 ```
 そうするとcontents/config.jsonができていると思うので, 必要なところを編集してください. <font color='red'>idはGitHubのアカウント名</font>です.
 
 ## 使い方
 ### 記事を投稿する
 ```php
-php main.php post (:article_title)
+php saori draft :article_title
 ```
-これで contents/yyyy/mm/:article_title にarticle.mdとconfig.jsonが生成されます. ちなみにarticle_titleを設定しなければ contents/yyyy/mm/ddhhmm (日時分)に生成されます.  
-config.jsonで記事のタイトルとタグを設定します.
-いよいよ記事の作成です. article.mdにMarkdown形式で記述していきます.
+これでdraft/:article_titleディレクトリが生成されます. 中にはarticle.mdとconfig.jsonがあるので,記事の設定(タグやタイトル)と記事(Markdown形式)を書いていきましょう.  
+
+書き終えれば次のコマンドを実行します.
+```php
+php saori post :article_title
+```
+こうすると先に書いた記事がcontents/yyyy/mm/:article_titleに移動されます.  
+
 ### サイトを生成する
 いよいよサイトを生成します.
 ```php
-php main.php make
+php saori build
 ```
 これでlocalとusername.github.io (username部分はcontents/config.jsonのid)が作られます.  
 公開する前にどのようなサイトが生成されたのかを確認してみたいと思います. 確認にはPHPのビルトイン･サーバを使いましょう.
@@ -47,7 +43,7 @@ php -S localhost:8000 -t local
 ### GitHubにPush
 まずはGitHubに｢username.github.io｣というリポジトリを作成しましょう. username部分はGitHubのアカウント名です.  
 ```sh
-cd hrgruri.github.io
+cd username.github.io
 git init
 git remote add origin git@github.com:username/username.github.io.git
 git add --all
@@ -69,6 +65,4 @@ config.jsonを編集することでブログの設定を変えることができ
     }
 }
 ```
-これは,saoriというテーマを使用した際に使用する色を変えるためのものです. 変更できる箇所と名前はテーマによって異なるので注意してください. saoriテーマは[ここ](https://github.com/hrgruri/saori/blob/v1.0/src/theme/saori/config.json)で確認することができます.
-
-(2016-07-15: 内部的な話は現在書いています)
+これは,saoriというテーマを使用した際に使用する色を変えるためのものです. 変更できる箇所と名前はテーマによって異なるので注意してください. saoriテーマは[ここ](https://github.com/hrgruri/saori/blob/v2.0/src/theme/saori/config.json)で確認することができます.
