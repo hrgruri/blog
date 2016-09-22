@@ -6,7 +6,7 @@
 ### インストール
 インストールはComposerからできます
 ```sh
-composer create-project hrgruri/saori
+composer create-project hrgruri/saori-skeleton blog
 ```
 ### 初期化
 インストールが終わったら初期化をしましょう. 初期化をすることで,必要最低限の設定ファイルが生成されます.
@@ -65,4 +65,4 @@ config.jsonを編集することでブログの設定を変えることができ
     }
 }
 ```
-これは,saoriというテーマを使用した際に使用する色を変えるためのものです. 変更できる箇所と名前はテーマによって異なるので注意してください. saoriテーマは[ここ](https://github.com/hrgruri/saori/blob/v2.0/src/theme/saori/config.json)で確認することができます.
+これは,saoriというテーマを使用した際に使用する色を変えるためのものです. 変更できる箇所と名前はテーマによって異なるので注意してください. saoriテーマは[ここ](https://github.com/hrgruri/saori/blob/v2.1/src/theme/saori/config.json)で確認することができます.

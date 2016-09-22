@@ -6,8 +6,9 @@
     "theme"     :   "saori",
     "lang"      :   "ja",
     "link"      :   {
-        "github"    :   "https://github.com/hrgruri",
-        "twitter"   :   "https://twitter.com/hrgruri",
+        "GitHub"    :   "https://github.com/hrgruri",
+        "Twitter"   :   "https://twitter.com/hrgruri",
+        "Speaker Deck": "https://speakerdeck.com/hrgruri",
         "リポジトリ説明": "/repository"
     },
     "feed" : {
