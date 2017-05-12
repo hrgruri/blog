@@ -1,13 +1,13 @@
 {
-    "id"        :   "hrgruri",
+    "id"        :   "taniko",
     "local"     :   "http://localhost:8000",
-    "title"     :   "blog\\hrgruri",
+    "title"     :   "blog\\taniko",
     "author"    :   "Yuya Aratani",
     "theme"     :   "saori",
     "lang"      :   "ja",
     "link"      :   {
-        "GitHub"    :   "https://github.com/hrgruri",
-        "Twitter"   :   "https://twitter.com/hrgruri",
+        "GitHub"    :   "https://github.com/taniko",
+        "Twitter"   :   "https://twitter.com/taniko_dev",
         "Speaker Deck": "https://speakerdeck.com/hrgruri",
         "リポジトリ説明": "/repository"
     },
