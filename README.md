@@ -1,5 +1,5 @@
 # blog
-hrgruri.github.ioのためのリポジトリ
+taniko.github.ioのためのリポジトリ
 
 ## 使い方
 ```sh
