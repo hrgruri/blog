@@ -950,16 +950,16 @@
         },
         {
             "name": "taniko/saori",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/taniko/saori.git",
-                "reference": "1551b45d29f28fef98155bafbe991021ff9d1cf2"
+                "reference": "4d20dcf8b1e5b50670db736ecfc12e026ba9776b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/taniko/saori/zipball/1551b45d29f28fef98155bafbe991021ff9d1cf2",
-                "reference": "1551b45d29f28fef98155bafbe991021ff9d1cf2",
+                "url": "https://api.github.com/repos/taniko/saori/zipball/4d20dcf8b1e5b50670db736ecfc12e026ba9776b",
+                "reference": "4d20dcf8b1e5b50670db736ecfc12e026ba9776b",
                 "shasum": ""
             },
             "require": {
@@ -990,7 +990,7 @@
                 "MIT"
             ],
             "description": "static site generator",
-            "time": "2017-05-17T13:37:36+00:00"
+            "time": "2017-05-20T07:20:09+00:00"
         },
         {
             "name": "twig/twig",
