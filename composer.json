@@ -3,7 +3,7 @@
     "description": "Saori Skeleton",
     "license": "MIT",
     "require": {
-        "php": ">=7.0.0",
-        "taniko/saori": "^3.0"
+        "php": ">=7.3.0",
+        "taniko/saori": "^3.1"
     }
 }
